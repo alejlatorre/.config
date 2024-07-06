@@ -1,0 +1,10 @@
+# Files
+.DS_Store
+
+# Store
+.git/
+gh-copilot/
+github-copilot/
+iterm2
+jgit
+raycast

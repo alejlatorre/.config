@@ -1,0 +1,42 @@
+## Commands mapping
+# alt => opt
+# shift => shift
+# cmd => cmd
+# ctrl => ctrl
+
+## Windows focus and layout
+# change window focus within space
+cmd - down : yabai -m window --focus south
+cmd - up : yabai -m window --focus north
+cmd - left : yabai -m window --focus west
+cmd - right : yabai -m window --focus east
+
+# change focus between external displays (left and right)
+shift + cmd - left : yabai -m display --focus west
+shift + cmd - right : yabai -m display --focus east
+
+# change current focus in float
+shift + cmd - up : yabai -m window --toggle float --grid 4:4:1:1:2:2
+
+# maximize a window
+shift + cmd - m : yabai -m window --toggle zoom-fullscreen
+
+# balance out tree of windows (resize to occupy same area)
+shift + cmd - e : yabai -m space --balance
+
+# swap windows
+ctrl + shift - down : yabai -m window --swap south
+ctrl + shift - up : yabai -m window --swap north
+ctrl + shift - left : yabai -m window --swap west
+ctrl + shift - right : yabai -m window --swap east
+
+# move window and split
+ctrl + alt - down : yabai -m window --warp south
+ctrl + alt - up : yabai -m window --warp north
+ctrl + alt - left : yabai -m window --warp west
+ctrl + alt - right : yabai -m window --warp east
+
+# move window to prev and next space
+shift + cmd - p : yabai -m window --space prev;
+shift + cmd - n : yabai -m window --space next;
+
