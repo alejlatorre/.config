@@ -11,23 +11,27 @@ yabai -m config window_gap 3
 
 
 # Mouse settings 
-yabai -m config mouse_follows_focus on
-yabai -m config mouse_modifier alt
-yabai -m config mouse_action1 move
-yabai -m config mouse_action2 resize
-yabai -m mouse_drop_action swap
+# yabai -m config mouse_follows_focus on
+# yabai -m config mouse_modifier alt
+# yabai -m config mouse_action1 move
+# yabai -m config mouse_action2 resize
+# yabai -m mouse_drop_action swap
 
 
 # Disable specific apps
 yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
 yabai -m rule --add app="^QuickTime Player$" manage=off
-yabai -m rule --add app="ChatGPT" manage=off
-yabai -m rule --add app="TextEdit" manage=off
-yabai -m rule --add app="Finder" manage=off
-yabai -m rule --add app="Slack" manage=off
-yabai -m rule --add app="WhatsApp" manage=off
-yabai -m rule --add app="Telegram" manage=off
-yabai -m rule --add app="Okta Verify" manage=off
-yabai -m rule --add app="tldv" manage=off
-yabai -m rule --add app="Cloudflare WARP" manage=off
+yabai -m rule --add app="^ChatGPT$" manage=off
+yabai -m rule --add app="^TextEdit$" manage=off
+yabai -m rule --add app="^Finder$" manage=off
+yabai -m rule --add app="^Slack$" manage=off
+yabai -m rule --add app="^WhatsApp$" manage=off
+yabai -m rule --add app="^Telegram$" manage=off
+yabai -m rule --add app="^Okta Verify$" manage=off
+yabai -m rule --add app="^tldv$" manage=off
+yabai -m rule --add app="^Cloudflare WARP$" manage=off
+yabai -m rule --add app="Notion Calendar" manage=off
+yabai -m rule --add app="iTerm" manage=off
+yabai -m rule --add app="SoqlXplorer" manage=off
+yabai -m rule --add app="Obsidian" manage=off
