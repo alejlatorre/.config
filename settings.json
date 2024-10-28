@@ -1,0 +1,159 @@
+{
+  "editor.accessibilitySupport": "off",
+  "editor.minimap.enabled": false,
+  "git.confirmSync": false,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "explorer.confirmDelete": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Catppuccin Alt Mocha",
+  "workbench.sideBar.location": "right",
+  "workbench.enableExperiments": true,
+  "workbench.editorAssociations": {
+    "*.html": "default",
+    "*.pdf": "latex-workshop-pdf-hook"
+  },
+  "update.mode": "manual",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/.ammonite": true
+  },
+  "remote.autoForwardPortsSource": "hybrid",
+  "diffEditor.renderSideBySide": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.colorDecorators": false,
+  "editor.cursorStyle": "underline",
+  "editor.cursorBlinking": "solid",
+  "editor.fontSize": 12,
+  "editor.glyphMargin": false,
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.lineHeight": 0,
+  "editor.lineNumbers": "relative",
+  "editor.matchBrackets": "near",
+  "editor.occurrencesHighlight": "off",
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "none",
+  "editor.scrollbar.horizontalScrollbarSize": 8,
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  "explorer.compactFolders": true,
+  "explorer.decorations.badges": true,
+  "git.enableSmartCommit": true,
+  "markdown.preview.markEditorSelection": false,
+  "problems.decorations.enabled": false,
+  "scm.diffDecorations": "none",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorWidth": 1,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.lineHeight": 1.05,
+  "workbench.editor.enablePreview": true,
+  "workbench.editor.revealIfOpen": true,
+  "workbench.editor.showIcons": true,
+  "workbench.editor.showTabs": "multiple",
+  "workbench.list.horizontalScrolling": true,
+  "workbench.tips.enabled": false,
+  "workbench.tree.indent": 13,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.layoutControl.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.activityBar.iconClickBehavior": "focus",
+  "window.autoDetectColorScheme": false,
+  "window.newWindowDimensions": "inherit",
+  "window.commandCenter": false,
+  "window.systemColorTheme": "default",
+  "breadcrumbs.enabled": true,
+  "window.title": "${rootName}",
+  "window.titleBarStyle": "native",
+  "window.nativeTabs": true,
+  "window.nativeFullScreen": true,
+  "window.customTitleBarVisibility": "never",
+  "apc.electron": {
+    "frame": true,
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 9,
+      "y": 11
+    }
+  },
+  "apc.menubar.compact": true,
+  "apc.activityBar": {
+    "position": "bottom",
+    "size": 20
+  },
+  "apc.statusBar": {
+    "position": "bottom",
+    "height": 25,
+    "fontSize": 12
+  },
+  "apc.stylesheet": {
+    ".decorationsOverviewRuler": "display: none;",
+    ".editor-group-container.empty": "-webkit-app-region: drag;",
+    ".monaco-editor .scroll-decoration": "box-shadow: none;",
+    ".tabs-border-bottom::after": "background: transparent !important",
+    ".sidebar": "border: none !important",
+    ".sidebar .title-label": "padding: 0 !important",
+    ".sidebar .title-label h2": "line-height: 2.8 !important"
+  },
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.leader": "<space>",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-n>": false
+  },
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 2
+  },
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.useLibraryCodeForTypes": true,
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.inlayHints.variableTypes": true,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.callArgumentNames": "off",
+  "fzf-quick-open.findDirectoriesCmd": "fd --type d",
+  "git.openRepositoryInParentFolders": "never",
+  "python.createEnvironment.trigger": "off",
+  "database-client.highlightSQLBlock": true,
+  "cursor.cpp.enablePartialAccepts": true,
+  "database-client.autoSync": true,
+  "editor.renderControlCharacters": false,
+  "workbench.editor.editorActionsLocation": "hidden"
+}
