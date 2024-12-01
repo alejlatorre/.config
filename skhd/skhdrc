@@ -11,6 +11,15 @@ cmd - up : yabai -m window --focus north
 cmd - left : yabai -m window --focus west
 cmd - right : yabai -m window --focus east
 
+# destroy desktop
+ctrl + cmd - w : yabai -m space --destroy
+
+# create desktop, move window and follow focus
+ctrl + cmd - n : yabai -m space --create && \
+                   index="$(yabai -m query --spaces --display | jq 'map(select(."native-fullscreen" == 0))[-1].index')" && \
+                   yabai -m window --space "${index}" && \
+                   yabai -m space --focus "${index}"
+
 # change focus between external displays (left and right)
 shift + cmd - left : yabai -m display --focus west
 shift + cmd - right : yabai -m display --focus east
