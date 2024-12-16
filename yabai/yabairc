@@ -42,3 +42,6 @@ yabai -m rule --add app="Karabiner-Elements" manage=off
 yabai -m rule --add app="Karabiner-EventViewer" manage=off
 yabai -m rule --add app="Postman" manage=off
 yabai -m rule --add app="Perplexity" manage=off
+yabai -m rule --add app="Notability" manage=off
+yabai -m rule --add app="Delta Investment Tracker" manage=off
+yabai -m rule --add app="RunJS" manage=off
